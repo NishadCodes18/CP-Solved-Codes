@@ -1,4 +1,3 @@
-//count words in stl
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -13,3 +12,5 @@ int main(){
     }
     cout<<"Words: "<<count<<endl;
 }
+
+//write time complexity for each code too

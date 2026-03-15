@@ -1,4 +1,3 @@
-//power of m to n
 #include <iostream>
 #include <cmath>
 using namespace std;

@@ -1,4 +1,3 @@
-//fibonacci series in stl
 #include <iostream>
 #include <vector>
 using namespace std;
