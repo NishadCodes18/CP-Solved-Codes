@@ -12,10 +12,10 @@ void insertion(int a[], int n) {
 }
 int main() {
     int a[] = {5, 2, 4, 6, 1, 3};
-    int n = 6;    
+    int n = 6,i;    
     insertion(a, n);
     cout << "Output:\n";
-    for (int i = 0; i < n; i++) {
+    for (i = 0; i < n; i++) {
         cout << a[i] << " ";
     }
     cout << "\n";   
