@@ -11,8 +11,8 @@ void insertion(int a[], int n) {
     }
 }
 int main() {
-    int a[] = {5, 2, 4, 6, 1, 3};
-    int n = 6,i;    
+    int a[] = {5, 2, 1, 3};
+    int n = 4,i;    
     insertion(a, n);
     cout << "Output:\n";
     for (i = 0; i < n; i++) {

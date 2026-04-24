@@ -12,7 +12,7 @@ void pop() {
     if (top == -1)
         cout << "Underflow\n";
     else
-        cout << stack[top--] << endl;
+        stack[top--];
 }
 void display() {
     if (top == -1)
@@ -25,7 +25,6 @@ void display() {
 }
 int main() {
     push(10);
-    push(20);
     push(30);
     display();
     pop(); 
